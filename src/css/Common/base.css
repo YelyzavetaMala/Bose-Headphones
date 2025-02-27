@@ -1,0 +1,112 @@
+:root {
+  --primary-text-color: rgba(255, 255, 255, 0.8);
+  --primary-title-color: #e7e7e7;
+  --accent-color: #df3d3a;
+  --error-color: #ea4335;
+  --body-bg: #191919;
+  --input-bg: #191919;
+  --input-text: rgba(255, 255, 255, 0.3);
+  --footer-bg: #191919;
+
+  /* Breakpoints */
+  --mobile: 375px;
+  --mobile-max: 767.98px;
+  --tablet: 768px;
+  --table-max: 1439.98px;
+  --desktop: 1440px;
+
+  /* Transition properties */
+  --transition-time: 250ms;
+  --transition-effect: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Backdrop */
+  --background-color: #191919;
+
+  /* Backdrop */
+  --primary-font-family: 'Poppins', sans-serif;
+
+  /* Height-constants */
+  --header-height-small: 76px;
+  --header-height-medium: 88px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  flex-grow: 1;
+}
+main:has(.back-link) {
+  text-align: center;
+}
+
+body {
+  color: var(--primary-text-color);
+  font-family: var(--primary-font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.013em;
+  line-height: 1.36;
+  background-color: var(--body-bg);
+  overflow-x: hidden;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body.is-hidden {
+  @media screen and (min-width: 1440px) {
+    overflow-y: scroll;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 0px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb-bg);
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: var(--scrollbar-track-bg);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.section {
+  overflow: hidden;
+  padding: 64px 0;
+
+  @media screen and (min-width: 768px) {
+    padding: 100px 0;
+  }
+
+  @media screen and (min-width: 1440px) {
+    padding: 140px 0;
+  }
+}
