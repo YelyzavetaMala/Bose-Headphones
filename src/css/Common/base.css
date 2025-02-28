@@ -48,7 +48,7 @@ main:has(.back-link) {
 body {
   color: var(--primary-text-color);
   font-family: var(--primary-font-family);
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.013em;
@@ -115,7 +115,7 @@ body::-webkit-scrollbar-track {
   margin-bottom: 32px;
   margin-top: 82px;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 24px;
   line-height: 1.35;
   letter-spacing: 0.02em;
   text-align: center;
@@ -131,6 +131,10 @@ body::-webkit-scrollbar-track {
   @media screen and (min-width: 1440px) {
     line-height: 1.4;
   }
+}
+
+.second-title {
+  font-size: 20px;
 }
 
 .button {
