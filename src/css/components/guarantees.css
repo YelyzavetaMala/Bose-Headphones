@@ -1,0 +1,16 @@
+.guarantees-marker {
+  fill: var(--accent-color);
+  margin-bottom: 16px;
+}
+
+.guarantees-title {
+  line-height: 1.3;
+  letter-spacing: -0.05em;
+  max-width: 162px;
+}
+.guarantees-card {
+  margin-bottom: 24px;
+}
+.guarantees-img {
+  margin-top: 32px;
+}

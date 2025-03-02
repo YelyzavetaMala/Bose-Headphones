@@ -1,0 +1,27 @@
+.brand-img {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.brand-text {
+  margin-bottom: 32px;
+}
+
+.quote-svg {
+  fill: var(--accent-color);
+  margin-top: 32px;
+  margin-bottom: 20px;
+}
+
+.quote-text {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  font-weight: 400;
+}
+.quote-author {
+  margin-top: 16px;
+  font-size: 14px;
+  letter-spacing: -0.06em;
+  color: #ffffff66;
+}

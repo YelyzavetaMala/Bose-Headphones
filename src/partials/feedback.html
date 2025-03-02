@@ -1,3 +1,70 @@
-<section id="">
-  <div class="container"></div>
+<section id="feedback">
+  <div class="container">
+    <picture>
+      <source
+        srcset="
+          ./img/feedback/feedback-desk-1x.jpg 1x,
+          ./img/feedback/feedback-desk-2x.jpg 2x
+        "
+        type="image/jpg"
+        media="(min-width: 1440px)"
+      />
+      <source
+        srcset="
+          ./img/feedback/feedback-tab-1x.jpg 1x,
+          ./img/feedback/feedback-tab-2x.jpg 2x
+        "
+        type="image/jpg"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          ./img/feedback/feedback-mob-1x.jpg 1x,
+          ./img/feedback/feedback-mob-2x.jpg 2x
+        "
+        type="image/jpg"
+        media="(max-width: 767px)"
+      />
+
+      <img
+        loading="lazy"
+        src="./img/feedback/feedback-desk-1x.jpg"
+        alt="Brand"
+        width="700"
+        height="628"
+      />
+    </picture>
+    <h2 class="section-title feedback-title">Feedback</h2>
+    <p class="feedback-text">
+      We'll help you find the right headphones for you.
+    </p>
+    <form class="feedback-form">
+      <input
+        type="text"
+        class="input-field"
+        name="name"
+        placeholder="Your name"
+        required
+      />
+      <input
+        type="email"
+        class="input-field"
+        name="email"
+        placeholder="Your e-mail"
+        required
+      />
+      <textarea
+        class="textarea-field"
+        name="message"
+        placeholder="Send us a message"
+      ></textarea>
+
+      <div class="checkbox-container">
+        <input class="checkbox" type="checkbox" id="privacy" required />
+        <label for="privacy">I agree to the privacy policy</label>
+      </div>
+
+      <button class="button submit-btn" type="submit">Send</button>
+    </form>
+  </div>
 </section>
