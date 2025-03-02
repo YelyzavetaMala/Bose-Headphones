@@ -1,0 +1,25 @@
+.hero-text {
+  max-width: 222px;
+}
+.hero-text-second {
+  max-width: 93px;
+  margin-top: 16px;
+}
+.hero-title {
+  font-size: 34px;
+  text-transform: uppercase;
+  margin-top: 32px;
+  letter-spacing: -0.01em;
+  line-height: 1em;
+}
+
+.hero-button {
+  padding: 19px 113px;
+  margin-top: 32px;
+  letter-spacing: -0.05em;
+  line-height: 1.2em;
+}
+
+.hero-img {
+  margin-top: 32px;
+}

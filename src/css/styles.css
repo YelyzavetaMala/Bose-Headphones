@@ -11,5 +11,7 @@
 @import url('./Common/animations.css');
 
 /* Sections style */
-@import url('./header.css');
-@import url('./footer.css');
+@import url('./components/header.css');
+@import url('./components/hero.css');
+@import url('./components/about.css');
+@import url('./components/footer.css');
