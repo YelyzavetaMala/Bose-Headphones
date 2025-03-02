@@ -1,0 +1,15 @@
+.capable-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+  gap: 24px;
+}
+
+.capable-item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.svg-marker {
+  fill: var(--accent-color);
+}
