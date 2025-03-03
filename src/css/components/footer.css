@@ -1,0 +1,29 @@
+.menu-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 45px;
+  margin-bottom: 28px;
+}
+
+.menu-item {
+  margin-bottom: 24px;
+}
+
+.menu-link {
+  line-height: 1.1;
+  letter-spacing: -0.05em;
+}
+
+.footer-list-second {
+  text-align: right;
+}
+
+.link-tel {
+  line-height: 1.1;
+  letter-spacing: 0.1em;
+}
+
+.footer {
+  padding-top: 72px;
+  padding-bottom: 52px;
+}
