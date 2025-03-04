@@ -1,2 +1,6 @@
 import './js/modal';
-import './js/faq';
+import { initFAQ } from './js/faq';
+
+document.addEventListener('DOMContentLoaded', () => {
+  initFAQ();
+});

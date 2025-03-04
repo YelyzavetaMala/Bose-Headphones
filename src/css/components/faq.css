@@ -29,7 +29,7 @@
 }
 
 .faq-item.active .faq-answer {
-  display: block;
+  display: block !important;
 }
 
 .icon {

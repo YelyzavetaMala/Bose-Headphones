@@ -1,3 +1,4 @@
+/*
 const modal = document.getElementById('modal');
 const openModalBtn = document.getElementById('openModalBtn');
 const closeModalBtn = document.querySelector('.close-btn');
@@ -25,4 +26,4 @@ listItems.forEach(function (item) {
     modal.style.display = 'none';
     document.body.classList.remove('body-no-scroll');
   };
-});
+}); */
