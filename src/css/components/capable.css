@@ -1,9 +1,20 @@
+.capable-title {
+  @media screen and (min-width: 768px) {
+    max-width: 412px;
+    padding-top: 28px;
+  }
+}
+
 .capable-item {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: baseline;
   gap: 24px;
+  @media screen and (min-width: 768px) {
+    letter-spacing: -0.04em;
+    line-height: 1.45;
+  }
 }
 
 .capable-item:not(:last-child) {
