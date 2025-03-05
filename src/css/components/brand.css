@@ -1,21 +1,59 @@
+.brand-container {
+  @media screen and (min-width: 768px) {
+    padding-right: 0;
+    padding-top: 100px;
+  }
+}
+
+.brand-title {
+  @media screen and (min-width: 768px) {
+    margin-top: 0;
+    max-width: 155px;
+  }
+}
+
 .brand-card {
   @media screen and (min-width: 768px) {
     display: flex;
 
     align-items: flex-start;
     gap: 60px;
-    padding-left: 0;
-    padding-top: 100px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .brand-text-1 {
+    order: 1; /* Перший текст */
+  }
+
+  .brand-text-2 {
+    order: 3; /* Фото останнім */
+  }
+  .brand-img {
+    order: 2; /* Другий текст */
   }
 }
 
 .brand-img {
   margin-top: 32px;
   margin-bottom: 32px;
+  @media screen and (min-width: 768px) {
+    max-width: 354px;
+    height: 524px;
+    margin-top: 0;
+  }
 }
 
 .brand-text {
   margin-bottom: 32px;
+  @media screen and (min-width: 768px) {
+    max-width: 294px;
+  }
+}
+
+.brand-text-3 {
+  @media screen and (min-width: 768px) {
+  }
 }
 
 .quote-svg {

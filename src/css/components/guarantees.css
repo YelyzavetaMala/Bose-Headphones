@@ -14,6 +14,12 @@
   margin-bottom: 16px;
 }
 
+.guarantees-section-title {
+  @media screen and (min-width: 768px) {
+    margin-top: 0;
+  }
+}
+
 .guarantees-title {
   line-height: 1.3;
   letter-spacing: -0.05em;
@@ -32,12 +38,18 @@
 }
 
 .guarantees-card {
-  margin-bottom: 24px;
   @media screen and (min-width: 768px) {
-    margin-bottom: 55px;
     max-width: 294px;
   }
 }
+
+.guarantees-card:not(:last-child) {
+  margin-bottom: 24px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 55px;
+  }
+}
+
 .guarantees-img {
   margin-top: 32px;
   @media screen and (min-width: 768px) {
