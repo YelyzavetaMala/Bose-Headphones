@@ -48,11 +48,23 @@
   margin-bottom: 32px;
   @media screen and (min-width: 768px) {
     max-width: 294px;
+    letter-spacing: -0.04em;
+    line-height: 1.45;
+    margin-bottom: 85px;
   }
 }
 
 .brand-text-3 {
   @media screen and (min-width: 768px) {
+    float: right;
+    padding-right: 90px;
+  }
+}
+
+.founder-img {
+  @media screen and (min-width: 768px) {
+    width: 294px;
+    height: 355px;
   }
 }
 
