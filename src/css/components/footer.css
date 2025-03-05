@@ -1,8 +1,19 @@
+.footer-container {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    gap: 145px;
+  }
+}
+
 .menu-nav {
   display: flex;
   justify-content: space-between;
   gap: 45px;
   margin-bottom: 28px;
+  @media screen and (min-width: 768px) {
+    gap: 139px;
+    margin-bottom: 0;
+  }
 }
 
 .menu-item {
@@ -12,18 +23,32 @@
 .menu-link {
   line-height: 1.1;
   letter-spacing: -0.05em;
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+  }
 }
 
 .footer-list-second {
   text-align: right;
+  @media screen and (min-width: 768px) {
+    text-align: left;
+  }
 }
 
 .link-tel {
   line-height: 1.1;
   letter-spacing: 0.1em;
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    margin-top: 85px;
+  }
 }
 
 .footer {
   padding-top: 72px;
   padding-bottom: 52px;
+  @media screen and (min-width: 768px) {
+    padding-top: 100px;
+    padding-bottom: 16px;
+  }
 }

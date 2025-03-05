@@ -56,8 +56,16 @@
 
 .brand-text-3 {
   @media screen and (min-width: 768px) {
-    float: right;
-    padding-right: 90px;
+    padding-right: 20px;
+    width: 294px;
+    margin-left: 354px;
+  }
+}
+
+.founder-card {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: flex-end;
   }
 }
 
@@ -65,6 +73,8 @@
   @media screen and (min-width: 768px) {
     width: 294px;
     height: 355px;
+    margin-top: -112px;
+    margin-right: 58px;
   }
 }
 
@@ -72,6 +82,9 @@
   fill: var(--accent-color);
   margin-top: 32px;
   margin-bottom: 20px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 52px;
+  }
 }
 
 .quote-text {
@@ -79,10 +92,18 @@
   line-height: 1.2;
   letter-spacing: -0.04em;
   font-weight: 400;
+  @media screen and (min-width: 768px) {
+    max-width: 294px;
+  }
 }
 .quote-author {
   margin-top: 16px;
   font-size: 14px;
+  line-height: 1.1;
   letter-spacing: -0.06em;
   color: #ffffff66;
+  @media screen and (min-width: 768px) {
+    margin-top: 32px;
+    letter-spacing: 0.02em;
+  }
 }
