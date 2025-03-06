@@ -25,6 +25,7 @@
   }
   @media screen and (min-width: 1440px) {
     margin-top: 36px;
+    line-height: 1.2;
   }
 }
 .hero-title {
@@ -42,7 +43,7 @@
   @media screen and (min-width: 1440px) {
     font-size: 74px;
     max-width: 664px;
-    margin-top: 94px;
+    margin-top: 90px;
     padding-left: 110px;
   }
 }
@@ -67,5 +68,11 @@
   margin-top: 32px;
   @media screen and (min-width: 768px) {
     margin-top: 0;
+    width: 354px;
+    height: 394px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 700px;
+    height: 598px;
   }
 }

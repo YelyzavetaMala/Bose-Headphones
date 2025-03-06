@@ -8,6 +8,11 @@
     padding-left: 0;
     padding-top: 100px;
   }
+  @media screen and (min-width: 1440px) {
+    justify-content: space-between;
+    padding-top: 178px;
+    padding-right: 190px;
+  }
 }
 
 .about-container .section-title {
@@ -23,6 +28,9 @@
     letter-spacing: -0.04em;
     line-height: 1.45;
   }
+  @media screen and (min-width: 1440px) {
+    width: 510px;
+  }
 }
 .second-title-about {
   margin-top: 24px;
@@ -32,7 +40,7 @@
     line-height: 1;
   }
   @media screen and (min-width: 1440px) {
-    width: 464px;
+    width: 294px;
   }
 }
 
