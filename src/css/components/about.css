@@ -31,11 +31,18 @@
     width: 294px;
     line-height: 1;
   }
+  @media screen and (min-width: 1440px) {
+    width: 464px;
+  }
 }
 
 .about-img {
   @media screen and (min-width: 768px) {
     width: 354px;
     height: 540px;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 590px;
+    height: 616px;
   }
 }

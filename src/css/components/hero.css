@@ -23,6 +23,9 @@
   @media screen and (min-width: 768px) {
     max-width: 110px;
   }
+  @media screen and (min-width: 1440px) {
+    margin-top: 36px;
+  }
 }
 .hero-title {
   font-size: 34px;
@@ -36,6 +39,12 @@
     margin-top: 105px;
     max-width: 289px;
   }
+  @media screen and (min-width: 1440px) {
+    font-size: 74px;
+    max-width: 664px;
+    margin-top: 94px;
+    padding-left: 110px;
+  }
 }
 
 .hero-button {
@@ -46,6 +55,11 @@
   @media screen and (min-width: 768px) {
     padding: 19px 120px;
     margin-top: 40px;
+  }
+  @media screen and (min-width: 1440px) {
+    padding: 21px 166px;
+    margin-top: 94px;
+    margin-left: 110px;
   }
 }
 
