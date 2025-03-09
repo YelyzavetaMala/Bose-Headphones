@@ -7,6 +7,11 @@
     padding-left: 0;
     padding-top: 100px;
   }
+  @media screen and (min-width: 1440px) {
+    padding-top: 195px;
+    gap: 150px;
+    padding-right: 295px;
+  }
 }
 
 .guarantees-marker {
@@ -28,6 +33,9 @@
     max-width: 294px;
     line-height: 1.5;
   }
+  @media screen and (min-width: 1440px) {
+    max-width: 405px;
+  }
 }
 
 .guarantees-text {
@@ -40,6 +48,9 @@
 .guarantees-card {
   @media screen and (min-width: 768px) {
     max-width: 294px;
+  }
+  @media screen and (min-width: 1440px) {
+    max-width: 405px;
   }
 }
 
@@ -56,5 +67,9 @@
     margin-top: 0;
     width: 354px;
     height: 442px;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 590px;
+    height: 565px;
   }
 }
