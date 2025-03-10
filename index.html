@@ -12,7 +12,7 @@
     <title>Bose Headphones</title>
     <link rel="icon" href="data:," />
     <script type="module" crossorigin src="/Bose-Headphones/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/Bose-Headphones/assets/index-3QQETsCL.css">
+    <link rel="stylesheet" crossorigin href="/Bose-Headphones/assets/index-BmQNGY-E.css">
   </head>
   <body>
     <header class="header">
@@ -491,7 +491,7 @@ For exact details, it’s best to check Bose’s official warranty policy or con
 </section>
 
       <section id="feedback">
-  <div class="container">
+  <div class="container feedback-container">
     <picture>
       <source
         srcset="/Bose-Headphones/assets/feedback-desk-1x-j8fpnGKA.jpg 1x, /Bose-Headphones/assets/feedback-desk-2x-CIgK9gBB.jpg 2x"
@@ -510,45 +510,52 @@ For exact details, it’s best to check Bose’s official warranty policy or con
       />
 
       <img
+        class="feedback-img"
         loading="lazy"
         src="/Bose-Headphones/assets/feedback-desk-1x-j8fpnGKA.jpg"
-        alt="Brand"
+        alt="feedback"
         width="700"
         height="628"
       />
     </picture>
-    <h2 class="section-title feedback-title">Feedback</h2>
-    <p class="feedback-text">
-      We'll help you find the right headphones for you.
-    </p>
-    <form class="feedback-form">
-      <input
-        type="text"
-        class="input-field"
-        name="name"
-        placeholder="Your name"
-        required
-      />
-      <input
-        type="email"
-        class="input-field"
-        name="email"
-        placeholder="Your e-mail"
-        required
-      />
-      <textarea
-        class="textarea-field"
-        name="message"
-        placeholder="Send us a message"
-      ></textarea>
-
-      <div class="checkbox-container">
-        <input class="checkbox" type="checkbox" id="privacy" required />
-        <label for="privacy">I agree to the privacy policy</label>
+    <div class="feedback-card">
+      <div>
+        <h2 class="section-title feedback-title">Feedback</h2>
+        <p class="feedback-text">
+          We'll help you find the right headphones for you.
+        </p>
       </div>
+      <div>
+        <form class="feedback-form">
+          <input
+            type="text"
+            class="input-field"
+            name="name"
+            placeholder="Your name"
+            required
+          />
+          <input
+            type="email"
+            class="input-field"
+            name="email"
+            placeholder="Your e-mail"
+            required
+          />
+          <textarea
+            class="textarea-field"
+            name="message"
+            placeholder="Send us a message"
+          ></textarea>
 
-      <button class="button submit-btn" type="submit">Send</button>
-    </form>
+          <div class="checkbox-container">
+            <input class="checkbox" type="checkbox" id="privacy" required />
+            <label for="privacy">I agree to the privacy policy</label>
+          </div>
+
+          <button class="button submit-btn" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </div>
 </section>
 
