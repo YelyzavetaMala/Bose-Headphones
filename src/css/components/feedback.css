@@ -1,6 +1,7 @@
 .feedback-container {
   @media screen and (min-width: 1440px) {
     padding: 0;
+    padding-top: 170px;
   }
 }
 .feedback-card {
