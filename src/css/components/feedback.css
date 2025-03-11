@@ -25,6 +25,7 @@
   }
   @media screen and (min-width: 1440px) {
     margin-top: 0;
+    line-height: 1.3;
   }
 }
 .feedback-text {
@@ -40,6 +41,7 @@
   }
   @media screen and (min-width: 1440px) {
     font-size: 28px;
+    line-height: 1.2;
     width: 400px;
   }
 }
