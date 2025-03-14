@@ -1,0 +1,35 @@
+.reviews-slider {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.swiper-slide video {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.swiper-pagination {
+  position: relative;
+  margin-top: 15px;
+}
+
+.swiper-pagination-bullet {
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  background: transparent;
+  color: #000;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+  border: 2px solid #000;
+  border-radius: 50%;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background: #ff6600;
+  color: #fff;
+  border: 2px solid #ff6600;
+}
