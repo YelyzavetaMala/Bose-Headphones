@@ -18,7 +18,7 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
-
+  margin-right: 24px;
   cursor: pointer;
 }
 .color-btn:hover {
@@ -39,4 +39,62 @@
   background-color: black;
   border: 7px solid #2e2e2e;
   outline: 1px solid rgb(250, 250, 250);
+}
+
+.buttons {
+  margin-top: 32px;
+
+  border-bottom: 2px solid var(--input-text);
+  padding-bottom: 32px;
+}
+
+.opt-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid var(--input-text);
+  padding-top: 10px;
+  padding-bottom: 12px;
+}
+
+.opt-text {
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.018em;
+}
+
+.icon-opt {
+  color: var(--accent-color);
+
+  font-size: 40px;
+
+  line-height: 1.1;
+  letter-spacing: 0.018em;
+}
+
+.faq-answer.opt-answer {
+  margin-top: 4px;
+}
+
+.price {
+  font-size: 24px;
+  color: var(--accent-color);
+  margin-top: 24px;
+}
+
+.opt-button {
+  padding: 19px 113px;
+  margin-top: 24px;
+  margin-bottom: 88px;
+  letter-spacing: -0.05em;
+  line-height: 1.35;
+  @media screen and (min-width: 768px) {
+    padding: 19px 120px;
+    margin-top: 40px;
+  }
+  @media screen and (min-width: 1440px) {
+    padding: 21px 166px;
+    margin-top: 94px;
+    margin-left: 110px;
+  }
 }
