@@ -1,5 +1,7 @@
 .opt-container {
-  padding-right: 0;
+  @media screen and (min-width: 1440px) {
+    padding-right: 0;
+  }
 }
 
 .opt-title {
@@ -19,6 +21,7 @@
 .product-image img {
   width: 280px;
   height: 265px;
+  object-fit: cover;
   transition: opacity 0.3s ease-in-out;
   @media screen and (min-width: 768px) {
     width: 648px;
