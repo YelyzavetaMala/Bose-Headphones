@@ -40,6 +40,21 @@
   }
 }
 
+.menu-item {
+  transition: transform 250ms ease-in-out;
+}
+
+.menu-item:hover {
+  transform: scale(1.1);
+}
+
+.menu-link:hover,
+.menu-link:active,
+.menu-link:focus {
+  border-bottom: 2px solid var(--primary-text-color);
+  padding-bottom: 2px;
+}
+
 .footer-list-first {
   @media screen and (min-width: 1440px) {
     display: flex;
