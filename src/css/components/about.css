@@ -1,5 +1,4 @@
 .about-container {
-  padding-top: 52px;
   @media screen and (min-width: 768px) {
     display: flex;
     flex-direction: row-reverse;
@@ -45,6 +44,7 @@
 }
 
 .about-img {
+  margin-top: 32px;
   @media screen and (min-width: 768px) {
     width: 354px;
     height: 540px;

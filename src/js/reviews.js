@@ -15,8 +15,8 @@ const swiperParams = {
 
   breakpoints: {
     375: { slidesPerView: 1, spaceBetween: 32 },
-    834: { slidesPerView: 2.5, spaceBetween: 32 },
-    1440: { slidesPerView: 4, spaceBetween: 32 },
+    834: { slidesPerView: 1, spaceBetween: 32 },
+    1440: { slidesPerView: 1, spaceBetween: 32 },
   },
 
   navigation: {
@@ -27,6 +27,19 @@ const swiperParams = {
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
+    type: 'custom',
+    renderCustom: function (swiper, current, total) {
+      let pages = '';
+      for (let i = 1; i <= total; i++) {
+        pages +=
+          i === current
+            ? `<span class="page-number active">0${i}</span>`
+            : `<span class="page-number">0${i}</span>`;
+
+        if (i < total) pages += ' - '; // Додаємо тире між номерами
+      }
+      return pages;
+    },
   },
 
   keyboard: {
