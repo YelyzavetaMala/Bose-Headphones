@@ -5,7 +5,7 @@ const whiteBtn = document.getElementById('whiteBtn');
 let currentColor = 'black';
 
 function changeColor(color) {
-  productImage.src = `../img/options/options-${color}-desk-1x.jpg`;
+  productImage.src = `/img/options/options-${color}-desk-1x.jpg`;
 
   if (color === 'black') {
     blackBtn.classList.add('active');

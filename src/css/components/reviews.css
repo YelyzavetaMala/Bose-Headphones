@@ -1,5 +1,20 @@
+.reviews-container {
+  @media screen and (min-width: 1440px) {
+    padding-left: 0;
+    padding-right: 112px;
+  }
+}
+
 .review-info-card {
   height: 464px;
+  @media screen and (min-width: 768px) {
+    height: 617px;
+  }
+  @media screen and (min-width: 1440px) {
+    height: 890px;
+    display: flex;
+    gap: 150px;
+  }
 }
 
 video {
@@ -15,6 +30,17 @@ video {
   }
 }
 
+.reviews-section-title {
+  @media screen and (min-width: 1440px) {
+    position: absolute; /* Фіксує позицію */
+    right: 0; /* Вирівнює заголовок праворуч */
+    top: -10px; /* Підіймає його вгору, щоб налазив */
+    background: white; /* Якщо треба фон */
+    padding: 10px; /* Додатковий відступ */
+    z-index: 60;
+  }
+}
+
 .review-title {
   margin-top: 32px;
   font-size: 20px;
@@ -22,6 +48,10 @@ video {
   font-weight: 600px;
   line-height: 1.1;
   letter-spacing: -0.05em;
+  @media screen and (min-width: 1440px) {
+    margin-top: 150px;
+    font-size: 28px;
+  }
 }
 
 .review-text {
@@ -30,4 +60,15 @@ video {
   max-width: 258px;
   line-height: 1.3;
   letter-spacing: -0.04em;
+  @media screen and (min-width: 768px) {
+    max-width: 530px;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+  }
+  @media screen and (min-width: 1440px) {
+    max-width: 258px;
+    font-size: 20px;
+    line-height: 1.45;
+    letter-spacing: -0.05em;
+  }
 }
