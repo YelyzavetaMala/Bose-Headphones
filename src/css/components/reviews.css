@@ -33,10 +33,10 @@ video {
 .reviews-section-title {
   @media screen and (min-width: 1440px) {
     position: absolute; /* Фіксує позицію */
-    right: 0; /* Вирівнює заголовок праворуч */
-    top: -10px; /* Підіймає його вгору, щоб налазив */
-    background: white; /* Якщо треба фон */
-    padding: 10px; /* Додатковий відступ */
+    right: 384px; /* Вирівнює заголовок праворуч */
+    /* Підіймає його вгору, щоб налазив */
+
+    padding: -40px; /* Додатковий відступ */
     z-index: 60;
   }
 }
@@ -49,7 +49,7 @@ video {
   line-height: 1.1;
   letter-spacing: -0.05em;
   @media screen and (min-width: 1440px) {
-    margin-top: 150px;
+    margin-top: 270px;
     font-size: 28px;
   }
 }
@@ -70,5 +70,49 @@ video {
     font-size: 20px;
     line-height: 1.45;
     letter-spacing: -0.05em;
+    margin-top: 20px;
   }
+}
+
+.video-wrapper {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.reviews-video {
+  height: auto;
+  display: block;
+}
+
+.play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  background-color: var(--accent-color); /* Червоний колір */
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  @media screen and (min-width: 1440px) {
+    top: 50%;
+    left: 34.9%;
+  }
+}
+
+.play-btn::after {
+  content: '▶';
+  font-size: 24px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.play-btn:hover {
+  background-color: rgba(223, 61, 58, 1); /* Червоний яскравіший */
 }

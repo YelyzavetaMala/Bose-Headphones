@@ -15,8 +15,6 @@ const swiperParams = {
 
   breakpoints: {
     375: { slidesPerView: 1, spaceBetween: 32 },
-    834: { slidesPerView: 1, spaceBetween: 32 },
-    1440: { slidesPerView: 1, spaceBetween: 32 },
   },
 
   navigation: {
@@ -50,3 +48,11 @@ const swiperParams = {
 };
 
 const swiper = new Swiper('.swiper-review-init', swiperParams);
+
+const video = document.getElementById('myVideo');
+const playButton = document.getElementById('playButton');
+
+playButton.addEventListener('click', () => {
+  video.play();
+  playButton.style.display = 'none'; // Ховаємо кнопку після натискання
+});
