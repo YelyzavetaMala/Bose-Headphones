@@ -86,7 +86,7 @@ video {
   transform: translate(-50%, -50%);
   width: 80px;
   height: 80px;
-  background-color: #df3d3a; /* Червона кнопка */
+  background-color: var(--accent-color);
   border-radius: 50%;
   border: none;
   cursor: pointer;
@@ -103,5 +103,5 @@ video {
 }
 
 .play-btn:hover {
-  background-color: #b02c2a; /* Темніший червоний при наведенні */
+  background-color: #b02c2a;
 }
