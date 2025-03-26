@@ -49,10 +49,16 @@ const swiperParams = {
 
 const swiper = new Swiper('.swiper-review-init', swiperParams);
 
-const video = document.getElementById('myVideo');
-const playButton = document.getElementById('playButton');
+document.querySelectorAll('.review-info-card').forEach(card => {
+  const video = card.querySelector('.reviews-video');
+  const playButton = card.querySelector('.play-btn');
 
-playButton.addEventListener('click', () => {
-  video.play();
-  playButton.style.display = 'none'; // Ховаємо кнопку після натискання
+  playButton.addEventListener('click', () => {
+    video.play();
+    playButton.style.display = 'none'; // Ховаємо кнопку тільки для цього відео
+  });
+
+  video.addEventListener('pause', () => {
+    playButton.style.display = 'block'; // Показуємо кнопку, якщо відео зупинено
+  });
 });

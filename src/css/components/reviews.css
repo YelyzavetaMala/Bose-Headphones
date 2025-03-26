@@ -77,12 +77,6 @@ video {
 .video-wrapper {
   position: relative;
   display: inline-block;
-  max-width: 100%;
-}
-
-.reviews-video {
-  height: auto;
-  display: block;
 }
 
 .play-btn {
@@ -92,27 +86,22 @@ video {
   transform: translate(-50%, -50%);
   width: 80px;
   height: 80px;
-  background-color: var(--accent-color); /* Червоний колір */
+  background-color: #df3d3a; /* Червона кнопка */
   border-radius: 50%;
   border: none;
   cursor: pointer;
-  transition: background 0.3s ease-in-out;
-  @media screen and (min-width: 1440px) {
-    top: 50%;
-    left: 34.9%;
-  }
+  transition: opacity 0.3s ease-in-out, background 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .play-btn::after {
   content: '▶';
   font-size: 24px;
   color: white;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .play-btn:hover {
-  background-color: rgba(223, 61, 58, 1); /* Червоний яскравіший */
+  background-color: #b02c2a; /* Темніший червоний при наведенні */
 }
