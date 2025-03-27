@@ -2,16 +2,17 @@
   @media screen and (min-width: 1440px) {
     padding-left: 0;
     padding-right: 112px;
+    padding-top: 170px;
   }
 }
 
 .review-info-card {
   height: 464px;
   @media screen and (min-width: 768px) {
-    height: 617px;
+    height: 650px;
   }
   @media screen and (min-width: 1440px) {
-    height: 890px;
+    height: 650px;
     display: flex;
     gap: 150px;
   }
@@ -33,11 +34,12 @@ video {
 .reviews-section-title {
   @media screen and (min-width: 1440px) {
     position: absolute; /* Фіксує позицію */
-    right: 384px; /* Вирівнює заголовок праворуч */
+    right: 344px; /* Вирівнює заголовок праворуч */
     /* Підіймає його вгору, щоб налазив */
 
-    padding: -40px; /* Додатковий відступ */
-    z-index: 60;
+    padding: -30px; /* Додатковий відступ */
+    z-index: 20;
+    margin-top: 0;
   }
 }
 
@@ -49,7 +51,7 @@ video {
   line-height: 1.1;
   letter-spacing: -0.05em;
   @media screen and (min-width: 1440px) {
-    margin-top: 270px;
+    margin-top: 115px;
     font-size: 28px;
   }
 }
@@ -74,18 +76,18 @@ video {
   }
 }
 
-.video-wrapper {
+.reviews-video {
   position: relative;
   display: inline-block;
 }
 
 .play-btn {
   position: absolute;
-  top: 50%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   background-color: var(--accent-color);
   border-radius: 50%;
   border: none;
@@ -94,6 +96,20 @@ video {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media screen and (min-width: 768px) {
+    top: 34%;
+
+    width: 60px;
+    height: 60px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    top: 33%;
+    left: 35%;
+    width: 80px;
+    height: 80px;
+  }
 }
 
 .play-btn::after {
