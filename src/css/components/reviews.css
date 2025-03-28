@@ -2,7 +2,6 @@
   @media screen and (min-width: 1440px) {
     padding-left: 0;
     padding-right: 112px;
-    padding-top: 170px;
   }
 }
 
@@ -33,13 +32,12 @@ video {
 
 .reviews-section-title {
   @media screen and (min-width: 1440px) {
-    position: absolute; /* Фіксує позицію */
-    right: 344px; /* Вирівнює заголовок праворуч */
-    /* Підіймає його вгору, щоб налазив */
-
-    padding: -30px; /* Додатковий відступ */
-    z-index: 20;
-    margin-top: 0;
+    max-width: 1440px;
+    text-align: right;
+    position: relative;
+    margin-bottom: -65px; /* Змінюй це значення, щоб заголовок заходив на картку */
+    z-index: 2;
+    margin-right: 28px;
   }
 }
 
@@ -105,7 +103,7 @@ video {
   }
 
   @media screen and (min-width: 1440px) {
-    top: 33%;
+    top: 45%;
     left: 35%;
     width: 80px;
     height: 80px;

@@ -226,6 +226,9 @@ body::-webkit-scrollbar-track {
   font-weight: bold;
   text-align: left;
   color: var(--pagination-theme-color);
+  @media screen and (min-width: 1440px) {
+    text-align: right;
+  }
 }
 
 .page-number {
