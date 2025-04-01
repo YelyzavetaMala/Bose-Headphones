@@ -3,6 +3,12 @@ document.addEventListener('DOMContentLoaded', function () {
   const blackBtn = document.getElementById('blackBtn');
   const whiteBtn = document.getElementById('whiteBtn');
 
+  // Перевірка на наявність елементів
+  if (!productImage || !blackBtn || !whiteBtn) {
+    console.error('One or more elements are missing!');
+    return;
+  }
+
   let currentColor = 'black';
 
   function changeColor(color) {
