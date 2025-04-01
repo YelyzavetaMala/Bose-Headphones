@@ -6,8 +6,8 @@ let currentColor = 'black';
 
 function changeColor(color) {
   const imagePaths = {
-    black: 'img/options/options-black-desk-2x.jpg',
-    white: 'img/options/options-white-desk-2x.jpg',
+    black: 'img/options/options-black-desk-1x.jpg',
+    white: 'img/options/options-white-desk-1x.jpg',
   };
 
   productImage.src = imagePaths[color];
