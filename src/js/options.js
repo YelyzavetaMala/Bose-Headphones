@@ -5,8 +5,12 @@ const whiteBtn = document.getElementById('whiteBtn');
 let currentColor = 'black';
 
 function changeColor(color) {
-  productImage.src =
-    `/img/options/options-${color}-desk-1x.jpg?v=` + Date.now();
+  const imagePaths = {
+    black: '/img/options/options-black-desk-1x.jpg',
+    white: '/img/options/options-white-desk-1x.jpg',
+  };
+
+  productImage.src = imagePaths[color];
 
   if (color === 'black') {
     blackBtn.classList.add('active');
